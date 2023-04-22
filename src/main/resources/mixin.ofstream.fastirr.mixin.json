@@ -1,0 +1,12 @@
+{
+  "package": "com.Hileb.ofstream_fastirr.mixin",
+  "mixins": [
+    "MixinExportUtils",
+    "MixinItemData",
+    "MixinMobData"
+  ],
+  "client": [],
+  "minVersion": 0.8,
+  "compatibilityLevel": "JAVA_8",
+  "server": []
+}
