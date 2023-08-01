@@ -3,6 +3,7 @@ package com.Hileb.ofstream_fastirr;
 import com.Hileb.ofstream_fastirr.proxy.ProxyBase;
 import com.Hileb.ofstream_fastirr.proxy.ClientProxy;
 import com.Hileb.ofstream_fastirr.proxy.ServerProxy;
+import itemrender.client.rendering.FBOHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -32,6 +33,8 @@ public class OfstreamFastIRR {
         logger = event.getModLog();
 
 
+        FBOHelper fbo=new FBOHelper(0);
+        fbo.begin();
 
     }
 
