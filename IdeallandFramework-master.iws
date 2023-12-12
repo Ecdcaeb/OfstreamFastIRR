@@ -319,6 +319,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.datadog.showProjectSetup&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/project/MC MOD/UnusuallyProjectPack/Ofstream/OfstreamFastIRR/IdeallandFramework-master/AdvancedWarning/OfstreamAdvancement/lib&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
@@ -353,8 +354,8 @@
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
+        <option enabled="false" name="BuildArtifacts" />
+        <option enabled="true" name="Make" />
       </method>
     </configuration>
     <configuration default="true" name="&lt;template&gt;" selected="false" type="WebApp">
@@ -386,6 +387,36 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration default="false" factoryName="Application" name="Minecraft Client" type="Application">
+      <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
+      <option name="MAIN_CLASS_NAME" value="GradleStart" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../OfstreamFastIRR\run" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OfstreamFastIRR_main" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="false" factoryName="Application" name="Minecraft Client" type="Application">
+      <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
+      <option name="MAIN_CLASS_NAME" value="GradleStart" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../OfstreamFastIRR\run" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OfstreamFastIRR_main" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
     <configuration name="Minecraft Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
       <module name="IdeallandFramework-master_main" />
@@ -408,6 +439,36 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="IdeallandFramework-master_main" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="false" factoryName="Application" name="Minecraft Server" type="Application">
+      <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
+      <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../OfstreamFastIRR\run" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OfstreamFastIRR_main" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="false" factoryName="Application" name="Minecraft Server" type="Application">
+      <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
+      <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../OfstreamFastIRR\run" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OfstreamFastIRR_main" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
@@ -466,7 +527,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <frame extended-state="6" height="845" width="1563" x="-7" y="-7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20598006" />
@@ -505,394 +566,394 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/advanced_warning/command/ModCommandHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="51">
-          <caret line="3" column="66" lean-forward="true" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+          <caret column="66" lean-forward="true" line="3" selection-end-column="66" selection-end-line="3" selection-start-column="66" selection-start-line="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
+            <element expanded="true" signature="imports" />
+            <element expanded="true" signature="e#380#381#0" />
+            <element expanded="true" signature="e#412#413#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/renderer/RenderGlobal.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="133">
-          <caret line="594" column="111" selection-start-line="594" selection-start-column="107" selection-end-line="594" selection-end-column="111" />
+          <caret column="111" line="594" selection-end-column="111" selection-end-line="594" selection-start-column="107" selection-start-line="594" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/Minecraft.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="151">
-          <caret line="260" column="20" selection-start-line="260" selection-start-column="20" selection-end-line="260" selection-end-column="20" />
+          <caret column="20" line="260" selection-end-column="20" selection-end-line="260" selection-start-column="20" selection-start-line="260" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/FontRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="143">
-          <caret line="999" column="19" selection-start-line="999" selection-start-column="19" selection-end-line="999" selection-end-column="19" />
+          <caret column="19" line="999" selection-end-column="19" selection-end-line="999" selection-start-column="19" selection-start-line="999" />
           <folding>
-            <element signature="e#37209#37210#0" expanded="true" />
-            <element signature="e#37253#37254#0" expanded="true" />
+            <element expanded="true" signature="e#37209#37210#0" />
+            <element expanded="true" signature="e#37253#37254#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/client/FMLClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="49">
-          <caret line="530" column="27" lean-forward="true" selection-start-line="530" selection-start-column="27" selection-end-line="530" selection-end-column="27" />
+          <caret column="27" lean-forward="true" line="530" selection-end-column="27" selection-end-line="530" selection-start-column="27" selection-start-line="530" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/LoadingScreenRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="253">
-          <caret line="160" column="79" selection-start-line="160" selection-start-column="79" selection-end-line="160" selection-end-column="79" />
+          <caret column="79" line="160" selection-end-column="79" selection-end-line="160" selection-start-column="79" selection-start-line="160" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/inventory/GuiFurnace.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="221">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <caret column="22" lean-forward="true" line="29" selection-end-column="22" selection-end-line="29" selection-start-column="22" selection-start-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/renderer/GlStateManager.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="151">
-          <caret line="596" column="23" selection-start-line="596" selection-start-column="23" selection-end-line="596" selection-end-column="23" />
+          <caret column="23" line="596" selection-end-column="23" selection-end-line="596" selection-start-column="23" selection-start-line="596" />
           <folding>
-            <element signature="e#17153#17154#0" expanded="true" />
-            <element signature="e#17187#17188#0" expanded="true" />
+            <element expanded="true" signature="e#17153#17154#0" />
+            <element expanded="true" signature="e#17187#17188#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/network/play/INetHandlerPlayClient.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="151">
-          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <caret column="41" line="70" selection-end-column="41" selection-end-line="70" selection-start-column="41" selection-start-line="70" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/GuiIngame.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="143">
-          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <caret column="29" line="73" selection-end-column="29" selection-end-line="73" selection-start-column="29" selection-start-line="73" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/network/play/server/SPacketTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
+          <caret column="42" selection-end-column="42" selection-start-column="42" />
           <folding>
-            <element signature="e#2971#2972#0" expanded="true" />
-            <element signature="e#3006#3007#0" expanded="true" />
+            <element expanded="true" signature="e#2971#2972#0" />
+            <element expanded="true" signature="e#3006#3007#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/momostories-1.0.jar!/com/gq2529/momostories/item/armors/ItemArmorBase.class">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="102">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret column="13" line="14" selection-end-column="13" selection-end-line="14" selection-start-column="13" selection-start-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/advanced_warning/IdlFramework.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="153">
-          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+          <caret column="90" line="15" selection-end-column="90" selection-end-line="15" selection-start-column="90" selection-start-line="15" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1892#1893#0" expanded="true" />
+            <element expanded="true" signature="imports" />
+            <element expanded="true" signature="e#1847#1848#0" />
+            <element expanded="true" signature="e#1892#1893#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/network/NetHandlerPlayClient.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="185">
-          <caret line="1721" column="58" selection-start-line="1721" selection-start-column="58" selection-end-line="1721" selection-end-column="58" />
+          <caret column="58" line="1721" selection-end-column="58" selection-end-line="1721" selection-start-column="58" selection-start-line="1721" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element expanded="true" signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/advanced_warning/command/CommandAdvancedTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="-64">
-          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+          <caret column="86" line="19" selection-end-column="86" selection-end-line="19" selection-start-column="86" selection-start-line="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element expanded="true" signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/profiler/Profiler.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="49">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <caret column="16" line="40" selection-end-column="16" selection-end-line="40" selection-start-column="16" selection-start-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/advanced_warning/render/ClientRenderPosting.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="143">
-          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+          <caret column="69" line="31" selection-end-column="69" selection-end-line="31" selection-start-column="69" selection-start-line="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element expanded="true" signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/client/event/RenderGameOverlayEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="-10">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+          <caret column="15" line="51" selection-end-column="15" selection-end-line="51" selection-start-column="15" selection-start-line="51" />
           <folding>
-            <element signature="e#0#5424#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element expanded="true" signature="e#0#5424#0" />
+            <element expanded="true" signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/client/GuiIngameForge.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="245">
-          <caret line="829" column="30" selection-start-line="829" selection-start-column="30" selection-end-line="829" selection-end-column="30" />
+          <caret column="30" line="829" selection-end-column="30" selection-end-line="829" selection-start-column="30" selection-start-line="829" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/GuiNewChat.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="-818">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <caret column="16" line="36" selection-end-column="16" selection-end-line="36" selection-start-column="16" selection-start-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/event/entity/living/LivingDropsEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="55">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <caret column="19" line="58" selection-end-column="19" selection-end-line="58" selection-start-column="19" selection-start-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/world/storage/loot/LootTableList.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="-1377">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret lean-forward="true" line="7" selection-end-line="7" selection-start-line="7" />
           <folding>
-            <element signature="e#295#313#0" expanded="true" />
+            <element expanded="true" signature="e#295#313#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/monster/EntityZombie.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="133">
-          <caret line="368" column="38" lean-forward="true" selection-start-line="368" selection-start-column="38" selection-end-line="368" selection-end-column="38" />
+          <caret column="38" lean-forward="true" line="368" selection-end-column="38" selection-end-line="368" selection-start-column="38" selection-start-line="368" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/block/BlockStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="151">
-          <caret line="666" column="23" selection-start-line="666" selection-start-column="23" selection-end-line="666" selection-end-column="23" />
+          <caret column="23" line="666" selection-end-column="23" selection-end-line="666" selection-start-column="23" selection-start-line="666" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/common/util/EnumHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="347">
-          <caret line="384" column="36" lean-forward="true" selection-start-line="384" selection-start-column="36" selection-end-line="384" selection-end-column="36" />
+          <caret column="36" lean-forward="true" line="384" selection-end-column="36" selection-end-line="384" selection-start-column="36" selection-start-line="384" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/common/ForgeHooks.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="151">
-          <caret line="615" column="22" selection-start-line="615" selection-start-column="22" selection-end-line="615" selection-end-column="22" />
+          <caret column="22" line="615" selection-end-column="22" selection-end-line="615" selection-start-column="22" selection-start-line="615" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_333/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="219">
-          <caret line="547" column="6" lean-forward="true" selection-start-line="547" selection-start-column="6" selection-end-line="547" selection-end-column="6" />
+          <caret column="6" lean-forward="true" line="547" selection-end-column="6" selection-end-line="547" selection-start-column="6" selection-start-line="547" />
           <folding>
-            <element signature="e#5730#5731#0" expanded="true" />
-            <element signature="e#5762#5763#0" expanded="true" />
+            <element expanded="true" signature="e#5730#5731#0" />
+            <element expanded="true" signature="e#5762#5763#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_333/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="66">
-          <caret line="2035" column="16" lean-forward="true" selection-start-line="2035" selection-start-column="16" selection-end-line="2035" selection-end-column="36" />
+          <caret column="16" lean-forward="true" line="2035" selection-end-column="36" selection-end-line="2035" selection-start-column="16" selection-start-line="2035" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/item/EntityItem.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="535">
-          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+          <caret column="11" line="77" selection-end-column="11" selection-end-line="77" selection-start-column="11" selection-start-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_333/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="151">
-          <caret line="2885" column="18" selection-start-line="2885" selection-start-column="18" selection-end-line="2885" selection-end-column="18" />
+          <caret column="18" line="2885" selection-end-column="18" selection-end-line="2885" selection-start-column="18" selection-start-line="2885" />
           <folding>
-            <element signature="e#113339#113340#0" expanded="true" />
-            <element signature="e#113366#113367#0" expanded="true" />
+            <element expanded="true" signature="e#113339#113340#0" />
+            <element expanded="true" signature="e#113366#113367#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/common/registry/GameRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="235">
-          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="135" selection-end-column="70" />
+          <caret column="16" line="134" selection-end-column="70" selection-end-line="135" selection-start-column="16" selection-start-line="134" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/advanced_warning/render/AdvancedWarning.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="544">
-          <caret line="44" column="121" selection-start-line="44" selection-start-column="121" selection-end-line="44" selection-end-column="121" />
+          <caret column="121" line="44" selection-end-column="121" selection-end-line="44" selection-start-column="121" selection-start-line="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element expanded="true" signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/IdeallandFramework-master/com/Hileb/advanced_warning/EntityTest.class" />
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/common/MinecraftDummyContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="102">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <caret column="13" line="32" selection-end-column="13" selection-end-line="32" selection-start-column="13" selection-start-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/common/MCPDummyContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="238">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <caret column="1" line="40" selection-end-column="1" selection-end-line="40" selection-start-column="1" selection-start-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/retromapping/replacedMain.rangemap">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="141">
-          <caret line="402" column="73" selection-start-line="402" selection-start-column="73" selection-end-line="402" selection-end-column="73" />
+          <caret column="73" line="402" selection-end-column="73" selection-end-line="402" selection-start-column="73" selection-start-line="402" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="132">
-          <caret line="49" column="177" selection-start-line="49" selection-start-column="173" selection-end-line="49" selection-end-column="177" />
+          <caret column="177" line="49" selection-end-column="177" selection-end-line="49" selection-start-column="173" selection-start-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mirror.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="text-editor" selected="true" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="text-editor" selected="true" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="-663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="text-editor" selected="true" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/advanced_warning/EntityTest.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/EntityLiving.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="133">
-          <caret line="274" column="36" selection-start-line="274" selection-start-column="33" selection-end-line="274" selection-end-column="36" />
+          <caret column="36" line="274" selection-end-column="36" selection-end-line="274" selection-start-column="33" selection-start-line="274" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/util/DamageSource.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="68">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret column="13" line="14" selection-end-column="13" selection-end-line="14" selection-start-column="13" selection-start-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_333/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="151">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <caret column="19" line="147" selection-end-column="19" selection-end-line="147" selection-start-column="19" selection-start-line="147" />
           <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
+            <element expanded="true" signature="e#5748#5749#0" />
+            <element expanded="true" signature="e#5784#5785#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/advanced_warning-1.0.0.2.jar!/com/Hileb/advanced_warning/EntityTest.class">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="204">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="32" />
+          <caret column="32" line="17" selection-end-column="32" selection-end-line="17" selection-start-column="19" selection-start-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/EntityLivingBase.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="65">
-          <caret line="1329" lean-forward="true" selection-start-line="1329" selection-end-line="1329" />
+          <caret lean-forward="true" line="1329" selection-end-line="1329" selection-start-line="1329" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/renderer/entity/Render.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="5899">
           <caret line="391" selection-end-line="391" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element expanded="true" signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/renderer/entity/RenderLivingBase.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="107">
-          <caret line="522" column="36" lean-forward="true" selection-start-line="522" selection-start-column="36" selection-end-line="522" selection-end-column="36" />
+          <caret column="36" lean-forward="true" line="522" selection-end-column="36" selection-end-line="522" selection-start-column="36" selection-start-line="522" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/advanced_warning/Testing.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="374">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <caret column="16" line="22" selection-end-column="16" selection-end-line="22" selection-start-column="16" selection-start-line="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element expanded="true" signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/advanced_warning/util/EntityUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor" selected="true">
         <state relative-caret-position="510">
-          <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+          <caret column="23" lean-forward="true" line="78" selection-end-column="23" selection-end-line="78" selection-start-column="23" selection-start-line="78" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element expanded="true" signature="imports" />
           </folding>
         </state>
       </provider>

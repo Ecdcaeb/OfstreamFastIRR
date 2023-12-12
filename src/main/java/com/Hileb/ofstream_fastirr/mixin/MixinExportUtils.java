@@ -49,18 +49,18 @@ import java.util.List;
 @Mixin(ExportUtils.class)
 public abstract class MixinExportUtils{
 
-    @Shadow
+
     private List<ItemData> itemDataList;
 
-    @Shadow
+
     private List<MobData> mobDataList;
 
 
-    @Shadow
+
     abstract String getItemOwner(ItemStack itemStack) ;
 
 
-    @Shadow
+
     abstract String getEntityOwner(EntityEntry Entitymob) ;
 
     public MixinExportUtils() {

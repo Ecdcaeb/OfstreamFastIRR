@@ -1,6 +1,7 @@
 package com.Hileb.ofstream_fastirr.mixin;
 
 import com.Hileb.ofstream.ofstream.lang.LangHelper;
+import com.Hileb.ofstream_fastirr.NameSwitcher;
 import itemrender.client.export.ItemData;
 import net.minecraft.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
@@ -25,22 +26,19 @@ public abstract class MixinItemData {
 
 
     public void setEnglishName(String englishNameIn) {
-        englishName=LangHelper.getI18n(LangHelper.EN_US).format(getItemStack().getUnlocalizedName()+".name");
+        englishName=NameSwitcher.getOffName(NameSwitcher.getItemTranslateKey(getItemStack()));
     }
 
 
     public void setCreativeName(String nameIn) {
         if (getItemStack().getItem().getCreativeTab()!=null){
             String key=getItemStack().getItem().getCreativeTab().getTranslatedTabLabel();
-            if (LangHelper.getI18n(LangHelper.ZH_CN).hasKey(key)){
-                CreativeTabName=LangHelper.getI18n(LangHelper.ZH_CN).format(key);
-            }
-            else CreativeTabName=LangHelper.getI18n(LangHelper.EN_US).format(key);
+            CreativeTabName=NameSwitcher.getMainName(key);
         }
         else CreativeTabName="";
     }
 
     public void setName(String nameIn) {
-        name=LangHelper.getI18n(LangHelper.ZH_CN).format(getItemStack().getUnlocalizedName()+".name");
+        name=NameSwitcher.getMainName(NameSwitcher.getItemTranslateKey(getItemStack()));
     }
 }

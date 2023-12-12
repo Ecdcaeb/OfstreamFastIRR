@@ -1,6 +1,7 @@
 package com.Hileb.ofstream_fastirr.mixin;
 
 import com.Hileb.ofstream.ofstream.lang.LangHelper;
+import com.Hileb.ofstream_fastirr.NameSwitcher;
 import itemrender.client.export.MobData;
 import net.minecraftforge.fml.common.registry.EntityEntry;
 import org.spongepowered.asm.mixin.Mixin;
@@ -20,11 +21,11 @@ public abstract class MixinMobData {
 
 
     public void setName(String nameIn) {
-        name=LangHelper.getI18n(LangHelper.ZH_CN).format("entity." + this.getMob().getName() + ".name");
+        name= NameSwitcher.getMainName(NameSwitcher.getEntityTranslateKey(getMob()));
     }
 
 
     public void setEnglishname(String nameIn) {
-        Englishname=LangHelper.getI18n(LangHelper.EN_US).format("entity." + this.getMob().getName() + ".name");
+        Englishname=NameSwitcher.getOffName(NameSwitcher.getEntityTranslateKey(getMob()));
     }
 }
