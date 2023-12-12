@@ -11,17 +11,17 @@ import org.spongepowered.asm.mixin.Shadow;
 @Mixin(ItemData.class)
 public abstract class MixinItemData {
 
-    @Shadow
+
     private String name;
 
-    @Shadow
+
     private String englishName;
 
-    @Shadow
+
     private String CreativeTabName;
 
 
-    @Shadow
+
     public abstract ItemStack getItemStack();
 
 

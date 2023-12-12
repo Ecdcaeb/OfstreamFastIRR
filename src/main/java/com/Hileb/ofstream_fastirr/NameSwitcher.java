@@ -2,7 +2,6 @@ package com.Hileb.ofstream_fastirr;
 
 import com.Hileb.ofstream.ofstream.lang.I18n;
 import com.Hileb.ofstream.ofstream.lang.LangHelper;
-import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.EntityEntry;
 

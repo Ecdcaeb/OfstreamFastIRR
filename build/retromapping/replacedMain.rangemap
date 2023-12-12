@@ -1,7 +1,7 @@
-Unsupposrted library path: E:\project\MC MOD\UnusuallyProjectPack\Ofstream\OfstreamFastIRR\IdeallandFramework-master\AdvancedWarning\OfstreamAdvancement\build\classes\java\api
-Unsupposrted library path: E:\project\MC MOD\UnusuallyProjectPack\Ofstream\OfstreamFastIRR\IdeallandFramework-master\AdvancedWarning\OfstreamAdvancement\build\resources\api
+Unsupposrted library path: E:\project\MC MOD\UnusuallyProjectPack\Ofstream\OfstreamFastIRR\IdeallandFramework-master\AdvancedWarning\OfstreamAdvancement\OfstreamFastIRR\build\classes\java\api
+Unsupposrted library path: E:\project\MC MOD\UnusuallyProjectPack\Ofstream\OfstreamFastIRR\IdeallandFramework-master\AdvancedWarning\OfstreamAdvancement\OfstreamFastIRR\build\resources\api
 Symbol range map extraction starting
-Processing 8 files
+Processing 6 files
 startProcessing "com/Hileb/ofstream_fastirr/MixinHandler.java" md5: 03d6521339c9ea724f0dc7443ad07e1f
 @|com/Hileb/ofstream_fastirr/MixinHandler.java|8|34|com.Hileb.ofstream_fastirr|package|com.Hileb.ofstream_fastirr|(file)
 Class Start: com.Hileb.ofstream_fastirr.MixinHandler
@@ -20,527 +20,441 @@ Class Start: com.Hileb.ofstream_fastirr.MixinHandler
 Class End  : com.Hileb.ofstream_fastirr.MixinHandler
 endProcessing "com/Hileb/ofstream_fastirr/MixinHandler.java"
 
-startProcessing "com/Hileb/ofstream_fastirr/OfstreamFastIRR.java" md5: 9d95f045927f2e8c62b6a620fcff8d95
+startProcessing "com/Hileb/ofstream_fastirr/NameSwitcher.java" md5: 0fd3446573aa84389df6433ab18f43d1
+@|com/Hileb/ofstream_fastirr/NameSwitcher.java|8|34|com.Hileb.ofstream_fastirr|package|com.Hileb.ofstream_fastirr|(file)
+Class Start: com.Hileb.ofstream_fastirr.NameSwitcher
+   @|com/Hileb/ofstream_fastirr/NameSwitcher.java|374|386|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+   Method Start: getMainName(Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|434|437|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|408|414|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|415|426|getMainName|method|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|427|433|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|449|453|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|460|470|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|471|478|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|479|489|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|490|495|ZH_CN|field|com.Hileb.ofstream.ofstream.lang.LangHelper|ZH_CN
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|517|523|hasKey|method|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|524|527|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|557|563|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|564|567|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|569|573|trim|method|java.lang.String|trim|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|607|611|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|618|628|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|629|636|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|637|647|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|648|653|EN_US|field|com.Hileb.ofstream.ofstream.lang.LangHelper|EN_US
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|679|685|hasKey|method|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|686|689|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|723|729|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|730|733|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|735|739|trim|method|java.lang.String|trim|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|769|772|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+   Method End: getMainName(Ljava/lang/String;)Ljava/lang/String;
+   Method Start: getOffName(Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|836|839|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getOffName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|811|817|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|818|828|getOffName|method|com.Hileb.ofstream_fastirr.NameSwitcher|getOffName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|829|835|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|851|855|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|862|872|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|873|880|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|881|891|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|892|897|ZH_CN|field|com.Hileb.ofstream.ofstream.lang.LangHelper|ZH_CN
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|909|913|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|920|930|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|931|938|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|939|949|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|950|955|EN_US|field|com.Hileb.ofstream.ofstream.lang.LangHelper|EN_US
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|977|983|hasKey|method|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|984|987|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getOffName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1014|1020|hasKey|method|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1021|1024|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getOffName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1039|1045|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1046|1049|key|param|com.Hileb.ofstream_fastirr.NameSwitcher|getOffName|(Ljava/lang/String;)Ljava/lang/String;|key|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1051|1055|trim|method|java.lang.String|trim|()Ljava/lang/String;
+   Method End: getOffName(Ljava/lang/String;)Ljava/lang/String;
+   Method Start: getItemTranslateKey(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1203|1208|stack|param|com.Hileb.ofstream_fastirr.NameSwitcher|getItemTranslateKey|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1166|1172|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1173|1192|getItemTranslateKey|method|com.Hileb.ofstream_fastirr.NameSwitcher|getItemTranslateKey|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1193|1202|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1227|1232|stack|param|com.Hileb.ofstream_fastirr.NameSwitcher|getItemTranslateKey|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1233|1240|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1243|1274|getUnlocalizedNameInefficiently|method|net.minecraft.item.Item|getUnlocalizedNameInefficiently|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1275|1280|stack|param|com.Hileb.ofstream_fastirr.NameSwitcher|getItemTranslateKey|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+   Method End: getItemTranslateKey(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+   Method Start: getEntityTranslateKey(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1360|1366|entity|param|com.Hileb.ofstream_fastirr.NameSwitcher|getEntityTranslateKey|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;|entity|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1319|1325|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1326|1347|getEntityTranslateKey|method|com.Hileb.ofstream_fastirr.NameSwitcher|getEntityTranslateKey|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1348|1359|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1378|1384|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1387|1393|entity|param|com.Hileb.ofstream_fastirr.NameSwitcher|getEntityTranslateKey|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;|entity|0
+      @|com/Hileb/ofstream_fastirr/NameSwitcher.java|1394|1401|getName|method|net.minecraftforge.fml.common.registry.EntityEntry|getName|()Ljava/lang/String;
+   Method End: getEntityTranslateKey(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+Class End  : com.Hileb.ofstream_fastirr.NameSwitcher
+endProcessing "com/Hileb/ofstream_fastirr/NameSwitcher.java"
+
+startProcessing "com/Hileb/ofstream_fastirr/OfstreamFastIRR.java" md5: f45c6ad3e73adc2dfa155e87363b6231
 @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|8|34|com.Hileb.ofstream_fastirr|package|com.Hileb.ofstream_fastirr|(file)
 Class Start: com.Hileb.ofstream_fastirr.OfstreamFastIRR
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|533|536|Mod|class|net.minecraftforge.fml.common.Mod|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|537|542|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|545|560|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|561|566|MODID|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|MODID
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|568|572|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|575|590|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|591|595|NAME|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|NAME
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|597|604|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|607|622|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|623|630|VERSION|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|VERSION
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|631|643|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|726|741|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|769|775|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|769|775|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|776|781|MODID|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|MODID|
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|829|835|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|829|835|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|836|840|NAME|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|NAME|
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|888|894|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|888|894|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|895|902|VERSION|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|VERSION|
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|937|943|Logger|class|org.apache.logging.log4j.Logger|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|937|943|Logger|class|org.apache.logging.log4j.Logger|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|944|950|logger|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|logger|
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|987|996|SHOW_WARN|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|SHOW_WARN|
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1045|1060|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1013|1025|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1045|1060|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1061|1069|instance|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|instance|
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1173|1182|ProxyBase|class|com.Hileb.ofstream_fastirr.proxy.ProxyBase|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1079|1089|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1090|1100|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1103|1114|ClientProxy|class|com.Hileb.ofstream_fastirr.proxy.ClientProxy|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1115|1120|PROXY|field|com.Hileb.ofstream_fastirr.proxy.ClientProxy|PROXY
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1122|1132|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1135|1146|ServerProxy|class|com.Hileb.ofstream_fastirr.proxy.ServerProxy|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1147|1152|PROXY|field|com.Hileb.ofstream_fastirr.proxy.ServerProxy|PROXY
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1173|1182|ProxyBase|class|com.Hileb.ofstream_fastirr.proxy.ProxyBase|false
-   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1183|1188|proxy|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|proxy|
-   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1262|1267|event|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1198|1210|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1228|1235|preInit|method|com.Hileb.ofstream_fastirr.OfstreamFastIRR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1236|1261|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1280|1286|logger|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|logger
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1289|1294|event|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1295|1304|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
-   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-   Method Start: LogWarning(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1369|1372|str|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1384|1388|args|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1351|1361|LogWarning|method|com.Hileb.ofstream_fastirr.OfstreamFastIRR|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1362|1368|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1374|1380|Object|class|java.lang.Object|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1405|1414|SHOW_WARN|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|SHOW_WARN
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1431|1437|logger|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|logger
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1438|1442|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1443|1449|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1450|1456|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1457|1460|str|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1462|1466|args|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
-   Method End: LogWarning(Ljava/lang/String;[Ljava/lang/Object;)V
-   Method Start: LogWarning(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1532|1535|str|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|LogWarning|(Ljava/lang/String;)V|str|0
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1514|1524|LogWarning|method|com.Hileb.ofstream_fastirr.OfstreamFastIRR|LogWarning|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1525|1531|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1552|1561|SHOW_WARN|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|SHOW_WARN
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1578|1584|logger|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|logger
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1585|1589|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1590|1593|str|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|LogWarning|(Ljava/lang/String;)V|str|0
-   Method End: LogWarning(Ljava/lang/String;)V
-   Method Start: Log(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1651|1654|str|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|Log|(Ljava/lang/String;)V|str|0
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1640|1643|Log|method|com.Hileb.ofstream_fastirr.OfstreamFastIRR|Log|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1644|1650|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1667|1673|logger|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|logger
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1674|1678|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1679|1682|str|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|Log|(Ljava/lang/String;)V|str|0
-   Method End: Log(Ljava/lang/String;)V
-   Method Start: Log(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1729|1732|str|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1744|1748|args|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1718|1721|Log|method|com.Hileb.ofstream_fastirr.OfstreamFastIRR|Log|(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1722|1728|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1734|1740|Object|class|java.lang.Object|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1761|1767|logger|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|logger
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1768|1772|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1773|1779|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1780|1786|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1787|1790|str|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|1792|1796|args|param|com.Hileb.ofstream_fastirr.OfstreamFastIRR|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
-   Method End: Log(Ljava/lang/String;[Ljava/lang/Object;)V
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|173|176|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|177|182|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|185|200|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|201|206|MODID|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|MODID
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|208|212|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|215|230|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|231|235|NAME|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|NAME
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|237|244|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|247|262|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|263|270|VERSION|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|VERSION
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|271|283|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|366|381|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|409|415|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|409|415|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|416|421|MODID|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|MODID|
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|469|475|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|469|475|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|476|480|NAME|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|NAME|
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|528|534|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|528|534|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|535|542|VERSION|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|VERSION|
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|592|607|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|560|572|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|592|607|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|608|616|instance|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|instance|
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|643|649|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|643|649|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|650|653|log|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|log|
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|655|665|LogManager|class|org.apache.logging.log4j.LogManager|false
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|666|675|getLogger|method|org.apache.logging.log4j.LogManager|getLogger|(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+   @|com/Hileb/ofstream_fastirr/OfstreamFastIRR.java|676|680|NAME|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|NAME
 Class End  : com.Hileb.ofstream_fastirr.OfstreamFastIRR
 endProcessing "com/Hileb/ofstream_fastirr/OfstreamFastIRR.java"
 
-startProcessing "com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java" md5: 5098a02d1409e698eed6d5765a7de795
+startProcessing "com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java" md5: 0632ee82c6d52f850ae9bf839d14a0f4
 @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|310|342|com.Hileb.ofstream_fastirr.mixin|package|com.Hileb.ofstream_fastirr.mixin|(file)
 Class Start: com.Hileb.ofstream_fastirr.mixin.MixinExportUtils
    @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1485|1490|Mixin|class|org.spongepowered.asm.mixin.Mixin|false
    @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1491|1502|ExportUtils|class|itemrender.client.export.ExportUtils|false
    @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1532|1548|MixinExportUtils|class|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1580|1588|ItemData|class|itemrender.client.export.ItemData|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1575|1579|List|class|java.util.List|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1556|1562|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1575|1579|List|class|java.util.List|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1580|1588|ItemData|class|itemrender.client.export.ItemData|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1590|1602|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList|
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1634|1641|MobData|class|itemrender.client.export.MobData|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1629|1633|List|class|java.util.List|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1610|1616|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1629|1633|List|class|java.util.List|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1634|1641|MobData|class|itemrender.client.export.MobData|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1643|1654|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList|
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1569|1577|ItemData|class|itemrender.client.export.ItemData|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1564|1568|List|class|java.util.List|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1564|1568|List|class|java.util.List|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1569|1577|ItemData|class|itemrender.client.export.ItemData|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1579|1591|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList|
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1612|1619|MobData|class|itemrender.client.export.MobData|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1607|1611|List|class|java.util.List|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1607|1611|List|class|java.util.List|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1612|1619|MobData|class|itemrender.client.export.MobData|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1621|1632|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList|
    Method Start: getItemOwner(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1713|1722|itemStack|param|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|itemStack|0
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1663|1669|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1683|1689|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1690|1702|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1703|1712|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1680|1689|itemStack|param|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|itemStack|0
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1650|1656|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1657|1669|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1670|1679|ItemStack|class|net.minecraft.item.ItemStack|false
    Method End: getItemOwner(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
    Method Start: getEntityOwner(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1787|1796|Entitymob|param|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;|Entitymob|0
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1733|1739|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1753|1759|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1760|1774|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1775|1786|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1743|1752|Entitymob|param|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;|Entitymob|0
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1709|1715|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1716|1730|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1731|1742|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
    Method End: getEntityOwner(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
    Method Start: MixinExportUtils()V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1812|1828|MixinExportUtils|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|MixinExportUtils|()V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1768|1784|MixinExportUtils|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|MixinExportUtils|()V
    Method End: MixinExportUtils()V
    Method Start: exportMods()V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1857|1867|exportMods|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|exportMods|()V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1877|1888|IOException|class|java.io.IOException|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1898|1908|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1909|1928|getI18nForcedReload|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1929|1939|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1940|1945|EN_US|field|com.Hileb.ofstream.ofstream.lang.LangHelper|EN_US
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1956|1966|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1967|1986|getI18nForcedReload|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1987|1997|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1998|2003|ZH_CN|field|com.Hileb.ofstream.ofstream.lang.LangHelper|ZH_CN
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2014|2029|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2030|2033|Log|method|com.Hileb.ofstream_fastirr.OfstreamFastIRR|Log|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2078|2087|Minecraft|class|net.minecraft.client.Minecraft|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2100|2116|FMLClientHandler|class|net.minecraftforge.fml.client.FMLClientHandler|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2117|2125|instance|method|net.minecraftforge.fml.client.FMLClientHandler|instance|()Lnet/minecraftforge/fml/client/FMLClientHandler;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2128|2137|getClient|method|net.minecraftforge.fml.client.FMLClientHandler|getClient|()Lnet/minecraft/client/Minecraft;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2153|2165|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2166|2171|clear|method|java.util.Collection|clear|()V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2187|2198|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2199|2204|clear|method|java.util.Collection|clear|()V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2220|2224|List|class|java.util.List|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2225|2231|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2247|2256|ArrayList|class|java.util.ArrayList|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2257|2263|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2281|2285|Gson|class|com.google.gson.Gson|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2297|2308|GsonBuilder|class|com.google.gson.GsonBuilder|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2311|2330|disableHtmlEscaping|method|com.google.gson.GsonBuilder|disableHtmlEscaping|()Lcom/google/gson/GsonBuilder;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2333|2339|create|method|com.google.gson.GsonBuilder|create|()Lcom/google/gson/Gson;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2355|2363|ItemData|class|itemrender.client.export.ItemData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2386|2393|MobData|class|itemrender.client.export.MobData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2415|2421|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2447|2452|Class|class|java.lang.Class|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2460|2468|ItemList|class|itemrender.client.export.ItemList|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2488|2493|Field|class|java.lang.reflect.Field|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2509|2525|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2556|2569|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2589|2599|LinkedList|class|java.util.LinkedList|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2600|2609|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2624|2634|LinkedList|class|java.util.LinkedList|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2635|2644|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2655|2658|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2684|2693|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2790|2802|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2814|2820|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2838|2851|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2852|2870|exportVanillaItems|field|itemrender.ItemRenderMod|exportVanillaItems
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2922|2929|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2932|2950|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2971|2982|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3006|3019|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3020|3029|blacklist|field|itemrender.ItemRenderMod|blacklist
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3030|3038|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3094|3102|ItemData|class|itemrender.client.export.ItemData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3131|3143|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3144|3147|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3188|3196|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3197|3209|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3231|3234|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3235|3247|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3292|3303|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3313|3328|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3329|3337|ENTITIES|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ENTITIES
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3564|3578|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3587|3593|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3611|3624|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3625|3643|exportVanillaItems|field|itemrender.ItemRenderMod|exportVanillaItems
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3686|3693|MobData|class|itemrender.client.export.MobData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3719|3730|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3731|3734|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3774|3782|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3783|3797|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3816|3819|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3820|3834|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4220|4228|ItemData|class|itemrender.client.export.ItemData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4236|4248|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4272|4285|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4286|4295|debugMode|field|itemrender.ItemRenderMod|debugMode
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4317|4330|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4331|4339|instance|field|itemrender.ItemRenderMod|instance
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4340|4343|log|field|itemrender.ItemRenderMod|log
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4344|4348|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4349|4353|I18n|class|net.minecraft.client.resources.I18n|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4354|4360|format|method|net.minecraft.client.resources.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4390|4402|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4405|4412|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4415|4433|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4449|4461|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4464|4475|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4502|4509|setName|method|itemrender.client.export.ItemData|setName|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4536|4551|setCreativeName|method|itemrender.client.export.ItemData|setCreativeName|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4588|4595|MobData|class|itemrender.client.export.MobData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4603|4614|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4638|4651|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4652|4661|debugMode|field|itemrender.ItemRenderMod|debugMode
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4683|4696|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4697|4705|instance|field|itemrender.ItemRenderMod|instance
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4706|4709|log|field|itemrender.ItemRenderMod|log
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4710|4714|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4715|4719|I18n|class|net.minecraft.client.resources.I18n|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4720|4726|format|method|net.minecraft.client.resources.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4756|4762|getMob|method|itemrender.client.export.MobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4765|4780|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4807|4814|setName|method|itemrender.client.export.MobData|setName|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5161|5169|ItemData|class|itemrender.client.export.ItemData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5177|5189|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5213|5226|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5227|5236|debugMode|field|itemrender.ItemRenderMod|debugMode
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5258|5271|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5272|5280|instance|field|itemrender.ItemRenderMod|instance
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5281|5284|log|field|itemrender.ItemRenderMod|log
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5285|5289|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5290|5294|I18n|class|net.minecraft.client.resources.I18n|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5295|5301|format|method|net.minecraft.client.resources.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5331|5343|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5346|5353|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5356|5374|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5390|5402|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5405|5416|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5443|5457|setEnglishName|method|itemrender.client.export.ItemData|setEnglishName|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5495|5502|MobData|class|itemrender.client.export.MobData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5510|5521|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5545|5558|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5559|5568|debugMode|field|itemrender.ItemRenderMod|debugMode
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5590|5603|ItemRenderMod|class|itemrender.ItemRenderMod|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5604|5612|instance|field|itemrender.ItemRenderMod|instance
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5613|5616|log|field|itemrender.ItemRenderMod|log
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5617|5621|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5622|5626|I18n|class|net.minecraft.client.resources.I18n|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5627|5633|format|method|net.minecraft.client.resources.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5663|5669|getMob|method|itemrender.client.export.MobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5672|5687|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5714|5728|setEnglishname|method|itemrender.client.export.MobData|setEnglishname|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5761|5765|File|class|java.io.File|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5786|5790|File|class|java.io.File|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5817|5823|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5872|5876|File|class|java.io.File|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5887|5896|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5898|5904|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5905|5911|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5921|5925|File|class|java.io.File|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5926|5935|separator|field|java.io.File|separator
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5962|5972|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6032|6045|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6048|6054|exists|method|java.io.File|exists|()Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6065|6078|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6081|6087|mkdirs|method|java.io.File|mkdirs|()Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6119|6125|exists|method|java.io.File|exists|()Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6136|6149|createNewFile|method|java.io.File|createNewFile|()Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6169|6180|PrintWriter|class|java.io.PrintWriter|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6190|6201|PrintWriter|class|java.io.PrintWriter|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6242|6250|ItemData|class|itemrender.client.export.ItemData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6258|6270|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6304|6310|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6311|6323|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6329|6341|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6374|6381|println|method|java.io.PrintWriter|println|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6387|6393|toJson|method|com.google.gson.Gson|toJson|(Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6439|6444|close|method|java.lang.AutoCloseable|close|()V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6480|6486|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6536|6540|File|class|java.io.File|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6551|6560|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6562|6568|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6569|6575|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6585|6589|File|class|java.io.File|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6590|6599|separator|field|java.io.File|separator
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6628|6638|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6699|6712|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6715|6721|exists|method|java.io.File|exists|()Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6733|6746|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6749|6755|mkdirs|method|java.io.File|mkdirs|()Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6788|6794|exists|method|java.io.File|exists|()Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6806|6819|createNewFile|method|java.io.File|createNewFile|()Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6839|6850|PrintWriter|class|java.io.PrintWriter|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6861|6872|PrintWriter|class|java.io.PrintWriter|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6914|6921|MobData|class|itemrender.client.export.MobData|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6929|6940|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6974|6980|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6981|6995|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7001|7007|getMob|method|itemrender.client.export.MobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7041|7048|println|method|java.io.PrintWriter|println|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7054|7060|toJson|method|com.google.gson.Gson|toJson|(Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7107|7112|close|method|java.lang.AutoCloseable|close|()V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7146|7155|Exception|class|java.lang.Exception|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7172|7187|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7188|7194|logger|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|logger
-      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7195|7200|error|method|org.apache.logging.log4j.Logger|error|(Ljava/lang/Object;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1813|1823|exportMods|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|exportMods|()V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1833|1844|IOException|class|java.io.IOException|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1854|1864|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1865|1884|getI18nForcedReload|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1885|1895|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1896|1901|EN_US|field|com.Hileb.ofstream.ofstream.lang.LangHelper|EN_US
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1912|1922|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1923|1942|getI18nForcedReload|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1943|1953|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1954|1959|ZH_CN|field|com.Hileb.ofstream.ofstream.lang.LangHelper|ZH_CN
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1970|1985|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1986|1989|log|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|log
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|1990|1994|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2039|2048|Minecraft|class|net.minecraft.client.Minecraft|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2061|2077|FMLClientHandler|class|net.minecraftforge.fml.client.FMLClientHandler|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2078|2086|instance|method|net.minecraftforge.fml.client.FMLClientHandler|instance|()Lnet/minecraftforge/fml/client/FMLClientHandler;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2089|2098|getClient|method|net.minecraftforge.fml.client.FMLClientHandler|getClient|()Lnet/minecraft/client/Minecraft;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2114|2126|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2127|2132|clear|method|java.util.Collection|clear|()V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2148|2159|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2160|2165|clear|method|java.util.Collection|clear|()V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2181|2185|List|class|java.util.List|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2186|2192|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2208|2217|ArrayList|class|java.util.ArrayList|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2218|2224|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2242|2246|Gson|class|com.google.gson.Gson|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2258|2269|GsonBuilder|class|com.google.gson.GsonBuilder|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2272|2291|disableHtmlEscaping|method|com.google.gson.GsonBuilder|disableHtmlEscaping|()Lcom/google/gson/GsonBuilder;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2294|2300|create|method|com.google.gson.GsonBuilder|create|()Lcom/google/gson/Gson;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2316|2324|ItemData|class|itemrender.client.export.ItemData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2347|2354|MobData|class|itemrender.client.export.MobData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2376|2382|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2408|2413|Class|class|java.lang.Class|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2421|2429|ItemList|class|itemrender.client.export.ItemList|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2449|2454|Field|class|java.lang.reflect.Field|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2470|2486|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2517|2530|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2550|2560|LinkedList|class|java.util.LinkedList|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2561|2570|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2585|2595|LinkedList|class|java.util.LinkedList|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2596|2605|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2616|2619|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2645|2654|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2751|2763|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2775|2781|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2799|2812|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2813|2831|exportVanillaItems|field|itemrender.ItemRenderMod|exportVanillaItems
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2883|2890|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2893|2911|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2932|2943|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2967|2980|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2981|2990|blacklist|field|itemrender.ItemRenderMod|blacklist
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|2991|2999|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3055|3063|ItemData|class|itemrender.client.export.ItemData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3092|3104|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3105|3108|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3149|3157|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3158|3170|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3192|3195|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3196|3208|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3253|3264|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3274|3289|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3290|3298|ENTITIES|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ENTITIES
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3525|3539|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3548|3554|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3572|3585|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3586|3604|exportVanillaItems|field|itemrender.ItemRenderMod|exportVanillaItems
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3647|3654|MobData|class|itemrender.client.export.MobData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3680|3691|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3692|3695|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3735|3743|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3744|3758|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3777|3780|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|3781|3795|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4181|4189|ItemData|class|itemrender.client.export.ItemData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4197|4209|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4233|4246|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4247|4256|debugMode|field|itemrender.ItemRenderMod|debugMode
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4278|4291|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4292|4300|instance|field|itemrender.ItemRenderMod|instance
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4301|4304|log|field|itemrender.ItemRenderMod|log
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4305|4309|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4310|4314|I18n|class|net.minecraft.client.resources.I18n|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4315|4321|format|method|net.minecraft.client.resources.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4351|4363|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4366|4373|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4376|4394|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4410|4422|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4425|4436|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4463|4470|setName|method|itemrender.client.export.ItemData|setName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4497|4512|setCreativeName|method|itemrender.client.export.ItemData|setCreativeName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4549|4556|MobData|class|itemrender.client.export.MobData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4564|4575|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4599|4612|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4613|4622|debugMode|field|itemrender.ItemRenderMod|debugMode
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4644|4657|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4658|4666|instance|field|itemrender.ItemRenderMod|instance
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4667|4670|log|field|itemrender.ItemRenderMod|log
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4671|4675|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4676|4680|I18n|class|net.minecraft.client.resources.I18n|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4681|4687|format|method|net.minecraft.client.resources.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4717|4723|getMob|method|itemrender.client.export.MobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4726|4741|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|4768|4775|setName|method|itemrender.client.export.MobData|setName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5122|5130|ItemData|class|itemrender.client.export.ItemData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5138|5150|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5174|5187|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5188|5197|debugMode|field|itemrender.ItemRenderMod|debugMode
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5219|5232|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5233|5241|instance|field|itemrender.ItemRenderMod|instance
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5242|5245|log|field|itemrender.ItemRenderMod|log
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5246|5250|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5251|5255|I18n|class|net.minecraft.client.resources.I18n|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5256|5262|format|method|net.minecraft.client.resources.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5292|5304|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5307|5314|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5317|5335|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5351|5363|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5366|5377|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5404|5418|setEnglishName|method|itemrender.client.export.ItemData|setEnglishName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5456|5463|MobData|class|itemrender.client.export.MobData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5471|5482|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5506|5519|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5520|5529|debugMode|field|itemrender.ItemRenderMod|debugMode
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5551|5564|ItemRenderMod|class|itemrender.ItemRenderMod|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5565|5573|instance|field|itemrender.ItemRenderMod|instance
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5574|5577|log|field|itemrender.ItemRenderMod|log
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5578|5582|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5583|5587|I18n|class|net.minecraft.client.resources.I18n|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5588|5594|format|method|net.minecraft.client.resources.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5624|5630|getMob|method|itemrender.client.export.MobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5633|5648|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5675|5689|setEnglishname|method|itemrender.client.export.MobData|setEnglishname|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5722|5726|File|class|java.io.File|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5747|5751|File|class|java.io.File|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5778|5784|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5833|5837|File|class|java.io.File|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5848|5857|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5859|5865|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5866|5872|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5882|5886|File|class|java.io.File|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5887|5896|separator|field|java.io.File|separator
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5923|5933|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|5993|6006|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6009|6015|exists|method|java.io.File|exists|()Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6026|6039|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6042|6048|mkdirs|method|java.io.File|mkdirs|()Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6080|6086|exists|method|java.io.File|exists|()Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6097|6110|createNewFile|method|java.io.File|createNewFile|()Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6130|6141|PrintWriter|class|java.io.PrintWriter|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6151|6162|PrintWriter|class|java.io.PrintWriter|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6203|6211|ItemData|class|itemrender.client.export.ItemData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6219|6231|itemDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|itemDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6265|6271|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6272|6284|getItemOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getItemOwner|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6290|6302|getItemStack|method|itemrender.client.export.ItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6335|6342|println|method|java.io.PrintWriter|println|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6348|6354|toJson|method|com.google.gson.Gson|toJson|(Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6400|6405|close|method|java.lang.AutoCloseable|close|()V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6441|6447|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6497|6501|File|class|java.io.File|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6512|6521|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6523|6529|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6530|6536|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6546|6550|File|class|java.io.File|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6551|6560|separator|field|java.io.File|separator
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6589|6599|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6660|6673|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6676|6682|exists|method|java.io.File|exists|()Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6694|6707|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6710|6716|mkdirs|method|java.io.File|mkdirs|()Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6749|6755|exists|method|java.io.File|exists|()Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6767|6780|createNewFile|method|java.io.File|createNewFile|()Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6800|6811|PrintWriter|class|java.io.PrintWriter|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6822|6833|PrintWriter|class|java.io.PrintWriter|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6875|6882|MobData|class|itemrender.client.export.MobData|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6890|6901|mobDataList|field|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|mobDataList
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6935|6941|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6942|6956|getEntityOwner|method|com.Hileb.ofstream_fastirr.mixin.MixinExportUtils|getEntityOwner|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|6962|6968|getMob|method|itemrender.client.export.MobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7002|7009|println|method|java.io.PrintWriter|println|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7015|7021|toJson|method|com.google.gson.Gson|toJson|(Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7068|7073|close|method|java.lang.AutoCloseable|close|()V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7107|7116|Exception|class|java.lang.Exception|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7133|7148|OfstreamFastIRR|class|com.Hileb.ofstream_fastirr.OfstreamFastIRR|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7149|7152|log|field|com.Hileb.ofstream_fastirr.OfstreamFastIRR|log
+      @|com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java|7153|7158|error|method|org.apache.logging.log4j.Logger|error|(Ljava/lang/Object;)V
    Method End: exportMods()V
 Class End  : com.Hileb.ofstream_fastirr.mixin.MixinExportUtils
 endProcessing "com/Hileb/ofstream_fastirr/mixin/MixinExportUtils.java"
 
-startProcessing "com/Hileb/ofstream_fastirr/mixin/MixinItemData.java" md5: c308eb7f207728338e4f1655e9b5bf3b
+startProcessing "com/Hileb/ofstream_fastirr/mixin/MixinItemData.java" md5: 7a016a9924672ff96ef540a8c04394b9
 @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|8|40|com.Hileb.ofstream_fastirr.mixin|package|com.Hileb.ofstream_fastirr.mixin|(file)
 Class Start: com.Hileb.ofstream_fastirr.mixin.MixinItemData
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|316|321|Mixin|class|org.spongepowered.asm.mixin.Mixin|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|322|330|ItemData|class|itemrender.client.export.ItemData|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|361|374|MixinItemData|class|com.Hileb.ofstream_fastirr.mixin.MixinItemData|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|405|411|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|385|391|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|405|411|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|412|416|name|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|name|
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|446|452|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|426|432|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|446|452|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|453|464|englishName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|englishName|
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|494|500|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|474|480|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|494|500|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|501|516|CreativeTabName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|CreativeTabName|
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|365|370|Mixin|class|org.spongepowered.asm.mixin.Mixin|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|371|379|ItemData|class|itemrender.client.export.ItemData|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|410|423|MixinItemData|class|com.Hileb.ofstream_fastirr.mixin.MixinItemData|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|443|449|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|443|449|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|450|454|name|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|name|
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|473|479|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|473|479|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|480|491|englishName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|englishName|
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|510|516|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|510|516|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|517|532|CreativeTabName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|CreativeTabName|
    Method Start: getItemStack()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|528|534|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|556|565|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|566|578|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|561|570|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|571|583|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
    Method End: getItemStack()Lnet/minecraft/item/ItemStack;
    Method Start: setEnglishName(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|625|638|englishNameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setEnglishName|(Ljava/lang/String;)V|englishNameIn|0
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|603|617|setEnglishName|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setEnglishName|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|618|624|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|651|662|englishName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|englishName
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|663|673|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|674|681|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|682|692|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|693|698|EN_US|field|com.Hileb.ofstream.ofstream.lang.LangHelper|EN_US
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|700|706|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|707|719|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|722|740|getUnlocalizedName|method|net.minecraft.item.ItemStack|getUnlocalizedName|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|630|643|englishNameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setEnglishName|(Ljava/lang/String;)V|englishNameIn|0
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|608|622|setEnglishName|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setEnglishName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|623|629|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|656|667|englishName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|englishName
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|668|680|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|681|691|getOffName|method|com.Hileb.ofstream_fastirr.NameSwitcher|getOffName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|692|704|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|705|724|getItemTranslateKey|method|com.Hileb.ofstream_fastirr.NameSwitcher|getItemTranslateKey|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|725|737|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
    Method End: setEnglishName(Ljava/lang/String;)V
    Method Start: setCreativeName(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|804|810|nameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setCreativeName|(Ljava/lang/String;)V|nameIn|0
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|781|796|setCreativeName|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setCreativeName|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|797|803|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|827|839|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|842|849|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|852|866|getCreativeTab|method|net.minecraft.item.Item|getCreativeTab|()Lnet/minecraft/creativetab/CreativeTabs;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|890|896|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|901|913|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|916|923|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|926|940|getCreativeTab|method|net.minecraft.item.Item|getCreativeTab|()Lnet/minecraft/creativetab/CreativeTabs;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|943|964|getTranslatedTabLabel|method|net.minecraft.creativetab.CreativeTabs|getTranslatedTabLabel|()Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|985|995|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|996|1003|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1004|1014|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1015|1020|ZH_CN|field|com.Hileb.ofstream.ofstream.lang.LangHelper|ZH_CN
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1022|1028|hasKey|method|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1053|1068|CreativeTabName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|CreativeTabName
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1069|1079|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1080|1087|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1088|1098|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1099|1104|ZH_CN|field|com.Hileb.ofstream.ofstream.lang.LangHelper|ZH_CN
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1106|1112|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1152|1167|CreativeTabName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|CreativeTabName
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1168|1178|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1179|1186|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1187|1197|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1198|1203|EN_US|field|com.Hileb.ofstream.ofstream.lang.LangHelper|EN_US
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1205|1211|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1243|1258|CreativeTabName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|CreativeTabName
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|794|800|nameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setCreativeName|(Ljava/lang/String;)V|nameIn|0
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|771|786|setCreativeName|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setCreativeName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|787|793|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|817|829|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|832|839|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|842|856|getCreativeTab|method|net.minecraft.item.Item|getCreativeTab|()Lnet/minecraft/creativetab/CreativeTabs;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|880|886|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|891|903|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|906|913|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|916|930|getCreativeTab|method|net.minecraft.item.Item|getCreativeTab|()Lnet/minecraft/creativetab/CreativeTabs;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|933|954|getTranslatedTabLabel|method|net.minecraft.creativetab.CreativeTabs|getTranslatedTabLabel|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|971|986|CreativeTabName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|CreativeTabName
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|987|999|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1000|1011|getMainName|method|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1043|1058|CreativeTabName|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|CreativeTabName
    Method End: setCreativeName(Ljava/lang/String;)V
    Method Start: setName(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1304|1310|nameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setName|(Ljava/lang/String;)V|nameIn|0
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1289|1296|setName|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setName|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1297|1303|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1323|1327|name|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|name
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1328|1338|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1339|1346|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1347|1357|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1358|1363|ZH_CN|field|com.Hileb.ofstream.ofstream.lang.LangHelper|ZH_CN
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1365|1371|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1372|1384|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1387|1405|getUnlocalizedName|method|net.minecraft.item.ItemStack|getUnlocalizedName|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1104|1110|nameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setName|(Ljava/lang/String;)V|nameIn|0
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1089|1096|setName|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|setName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1097|1103|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1123|1127|name|field|com.Hileb.ofstream_fastirr.mixin.MixinItemData|name
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1128|1140|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1141|1152|getMainName|method|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1153|1165|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1166|1185|getItemTranslateKey|method|com.Hileb.ofstream_fastirr.NameSwitcher|getItemTranslateKey|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinItemData.java|1186|1198|getItemStack|method|com.Hileb.ofstream_fastirr.mixin.MixinItemData|getItemStack|()Lnet/minecraft/item/ItemStack;
    Method End: setName(Ljava/lang/String;)V
 Class End  : com.Hileb.ofstream_fastirr.mixin.MixinItemData
 endProcessing "com/Hileb/ofstream_fastirr/mixin/MixinItemData.java"
 
-startProcessing "com/Hileb/ofstream_fastirr/mixin/MixinMobData.java" md5: f0dea6138d3225b787a0fd832a9fef68
+startProcessing "com/Hileb/ofstream_fastirr/mixin/MixinMobData.java" md5: 2d23353fb4d757cd6ec248216a977353
 @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|8|40|com.Hileb.ofstream_fastirr.mixin|package|com.Hileb.ofstream_fastirr.mixin|(file)
 Class Start: com.Hileb.ofstream_fastirr.mixin.MixinMobData
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|337|342|Mixin|class|org.spongepowered.asm.mixin.Mixin|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|343|350|MobData|class|itemrender.client.export.MobData|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|381|393|MixinMobData|class|com.Hileb.ofstream_fastirr.mixin.MixinMobData|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|424|430|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|404|410|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|424|430|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|431|435|name|field|com.Hileb.ofstream_fastirr.mixin.MixinMobData|name|
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|463|469|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|443|449|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|463|469|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|470|481|Englishname|field|com.Hileb.ofstream_fastirr.mixin.MixinMobData|Englishname|
+   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|286|291|Mixin|class|org.spongepowered.asm.mixin.Mixin|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|292|299|MobData|class|itemrender.client.export.MobData|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|330|342|MixinMobData|class|com.Hileb.ofstream_fastirr.mixin.MixinMobData|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|362|368|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|362|368|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|369|373|name|field|com.Hileb.ofstream_fastirr.mixin.MixinMobData|name|
+   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|390|396|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|390|396|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|397|408|Englishname|field|com.Hileb.ofstream_fastirr.mixin.MixinMobData|Englishname|
    Method Start: getMob()Lnet/minecraftforge/fml/common/registry/EntityEntry;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|491|497|Shadow|class|org.spongepowered.asm.mixin.Shadow|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|519|530|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|531|537|getMob|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|435|446|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|447|453|getMob|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
    Method End: getMob()Lnet/minecraftforge/fml/common/registry/EntityEntry;
    Method Start: setName(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|577|583|nameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinMobData|setName|(Ljava/lang/String;)V|nameIn|0
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|562|569|setName|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|setName|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|570|576|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|596|600|name|field|com.Hileb.ofstream_fastirr.mixin.MixinMobData|name
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|601|611|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|612|619|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|620|630|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|631|636|ZH_CN|field|com.Hileb.ofstream.ofstream.lang.LangHelper|ZH_CN
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|638|644|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|662|668|getMob|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|671|678|getName|method|net.minecraftforge.fml.common.registry.EntityEntry|getName|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|493|499|nameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinMobData|setName|(Ljava/lang/String;)V|nameIn|0
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|478|485|setName|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|setName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|486|492|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|512|516|name|field|com.Hileb.ofstream_fastirr.mixin.MixinMobData|name
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|518|530|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|531|542|getMainName|method|com.Hileb.ofstream_fastirr.NameSwitcher|getMainName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|543|555|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|556|577|getEntityTranslateKey|method|com.Hileb.ofstream_fastirr.NameSwitcher|getEntityTranslateKey|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|578|584|getMob|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
    Method End: setName(Ljava/lang/String;)V
    Method Start: setEnglishname(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|743|749|nameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinMobData|setEnglishname|(Ljava/lang/String;)V|nameIn|0
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|721|735|setEnglishname|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|setEnglishname|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|736|742|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|762|773|Englishname|field|com.Hileb.ofstream_fastirr.mixin.MixinMobData|Englishname
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|774|784|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|785|792|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|793|803|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|804|809|EN_US|field|com.Hileb.ofstream.ofstream.lang.LangHelper|EN_US
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|811|817|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|835|841|getMob|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
-      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|844|851|getName|method|net.minecraftforge.fml.common.registry.EntityEntry|getName|()Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|640|646|nameIn|param|com.Hileb.ofstream_fastirr.mixin.MixinMobData|setEnglishname|(Ljava/lang/String;)V|nameIn|0
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|618|632|setEnglishname|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|setEnglishname|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|633|639|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|659|670|Englishname|field|com.Hileb.ofstream_fastirr.mixin.MixinMobData|Englishname
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|671|683|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|684|694|getOffName|method|com.Hileb.ofstream_fastirr.NameSwitcher|getOffName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|695|707|NameSwitcher|class|com.Hileb.ofstream_fastirr.NameSwitcher|false
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|708|729|getEntityTranslateKey|method|com.Hileb.ofstream_fastirr.NameSwitcher|getEntityTranslateKey|(Lnet/minecraftforge/fml/common/registry/EntityEntry;)Ljava/lang/String;
+      @|com/Hileb/ofstream_fastirr/mixin/MixinMobData.java|730|736|getMob|method|com.Hileb.ofstream_fastirr.mixin.MixinMobData|getMob|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
    Method End: setEnglishname(Ljava/lang/String;)V
 Class End  : com.Hileb.ofstream_fastirr.mixin.MixinMobData
 endProcessing "com/Hileb/ofstream_fastirr/mixin/MixinMobData.java"
-
-startProcessing "com/Hileb/ofstream_fastirr/proxy/ClientProxy.java" md5: d9e9fbb82a88734ac3f1b664840e523c
-@|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|8|40|com.Hileb.ofstream_fastirr.proxy|package|com.Hileb.ofstream_fastirr.proxy|(file)
-Class Start: com.Hileb.ofstream_fastirr.proxy.ClientProxy
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|324|335|ClientProxy|class|com.Hileb.ofstream_fastirr.proxy.ClientProxy|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|344|353|ProxyBase|class|com.Hileb.ofstream_fastirr.proxy.ProxyBase|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|386|396|KeyBinding|class|net.minecraft.client.settings.KeyBinding|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|381|385|List|class|java.util.List|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|381|385|List|class|java.util.List|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|386|396|KeyBinding|class|net.minecraft.client.settings.KeyBinding|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|398|410|KEY_BINDINGS|field|com.Hileb.ofstream_fastirr.proxy.ClientProxy|KEY_BINDINGS|
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|417|426|ArrayList|class|java.util.ArrayList|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|427|437|KeyBinding|class|net.minecraft.client.settings.KeyBinding|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|852|858|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|852|858|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|859|864|PROXY|field|com.Hileb.ofstream_fastirr.proxy.ClientProxy|PROXY|
-   Method Start: isServer()Z
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|930|938|isServer|method|com.Hileb.ofstream_fastirr.proxy.ProxyBase|isServer|()Z
-   Method End: isServer()Z
-   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1008|1012|item|param|com.Hileb.ofstream_fastirr.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1018|1022|meta|param|com.Hileb.ofstream_fastirr.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1031|1033|id|param|com.Hileb.ofstream_fastirr.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|982|1002|registerItemRenderer|method|com.Hileb.ofstream_fastirr.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1003|1007|Item|class|net.minecraft.item.Item|false
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1024|1030|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1042|1053|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1054|1084|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1085|1089|item|param|com.Hileb.ofstream_fastirr.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1091|1095|meta|param|com.Hileb.ofstream_fastirr.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1101|1122|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1123|1127|item|param|com.Hileb.ofstream_fastirr.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1128|1143|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
-      @|com/Hileb/ofstream_fastirr/proxy/ClientProxy.java|1147|1149|id|param|com.Hileb.ofstream_fastirr.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
-   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
-Class End  : com.Hileb.ofstream_fastirr.proxy.ClientProxy
-endProcessing "com/Hileb/ofstream_fastirr/proxy/ClientProxy.java"
-
-startProcessing "com/Hileb/ofstream_fastirr/proxy/ProxyBase.java" md5: fb4af5f400f5ed98161c781aa1399036
-@|com/Hileb/ofstream_fastirr/proxy/ProxyBase.java|8|40|com.Hileb.ofstream_fastirr.proxy|package|com.Hileb.ofstream_fastirr.proxy|(file)
-Class Start: com.Hileb.ofstream_fastirr.proxy.ProxyBase
-   @|com/Hileb/ofstream_fastirr/proxy/ProxyBase.java|93|102|ProxyBase|class|com.Hileb.ofstream_fastirr.proxy.ProxyBase|false
-   Method Start: isServer()Z
-      @|com/Hileb/ofstream_fastirr/proxy/ProxyBase.java|122|130|isServer|method|com.Hileb.ofstream_fastirr.proxy.ProxyBase|isServer|()Z
-   Method End: isServer()Z
-   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/proxy/ProxyBase.java|200|204|item|param|com.Hileb.ofstream_fastirr.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
-      @|com/Hileb/ofstream_fastirr/proxy/ProxyBase.java|210|214|meta|param|com.Hileb.ofstream_fastirr.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
-      @|com/Hileb/ofstream_fastirr/proxy/ProxyBase.java|223|225|id|param|com.Hileb.ofstream_fastirr.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
-      @|com/Hileb/ofstream_fastirr/proxy/ProxyBase.java|174|194|registerItemRenderer|method|com.Hileb.ofstream_fastirr.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
-      @|com/Hileb/ofstream_fastirr/proxy/ProxyBase.java|195|199|Item|class|net.minecraft.item.Item|false
-      @|com/Hileb/ofstream_fastirr/proxy/ProxyBase.java|216|222|String|class|java.lang.String|false
-   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
-Class End  : com.Hileb.ofstream_fastirr.proxy.ProxyBase
-endProcessing "com/Hileb/ofstream_fastirr/proxy/ProxyBase.java"
-
-startProcessing "com/Hileb/ofstream_fastirr/proxy/ServerProxy.java" md5: 422c11657154454b8e51ddd9bb1b8ac5
-@|com/Hileb/ofstream_fastirr/proxy/ServerProxy.java|8|40|com.Hileb.ofstream_fastirr.proxy|package|com.Hileb.ofstream_fastirr.proxy|(file)
-Class Start: com.Hileb.ofstream_fastirr.proxy.ServerProxy
-   @|com/Hileb/ofstream_fastirr/proxy/ServerProxy.java|58|69|ServerProxy|class|com.Hileb.ofstream_fastirr.proxy.ServerProxy|false
-   @|com/Hileb/ofstream_fastirr/proxy/ServerProxy.java|78|87|ProxyBase|class|com.Hileb.ofstream_fastirr.proxy.ProxyBase|false
-   @|com/Hileb/ofstream_fastirr/proxy/ServerProxy.java|115|121|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/proxy/ServerProxy.java|115|121|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_fastirr/proxy/ServerProxy.java|122|127|PROXY|field|com.Hileb.ofstream_fastirr.proxy.ServerProxy|PROXY|
-   Method Start: isServer()Z
-      @|com/Hileb/ofstream_fastirr/proxy/ServerProxy.java|196|204|isServer|method|com.Hileb.ofstream_fastirr.proxy.ProxyBase|isServer|()Z
-   Method End: isServer()Z
-Class End  : com.Hileb.ofstream_fastirr.proxy.ServerProxy
-endProcessing "com/Hileb/ofstream_fastirr/proxy/ServerProxy.java"
 
