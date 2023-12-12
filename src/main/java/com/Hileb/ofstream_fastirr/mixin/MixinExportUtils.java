@@ -70,7 +70,7 @@ public abstract class MixinExportUtils{
     public void exportMods() throws IOException{
         LangHelper.getI18nForcedReload(LangHelper.EN_US);
         LangHelper.getI18nForcedReload(LangHelper.ZH_CN);
-        OfstreamFastIRR.Log("mixin export--");
+        OfstreamFastIRR.log.info("mixin export--");
         try{
             Minecraft minecraft = FMLClientHandler.instance().getClient();
             itemDataList.clear();
@@ -171,7 +171,7 @@ public abstract class MixinExportUtils{
                 pw1.close();
             }
         }catch (Exception e){
-            OfstreamFastIRR.logger.error(e);
+            OfstreamFastIRR.log.error(e);
         }
     }
 }
